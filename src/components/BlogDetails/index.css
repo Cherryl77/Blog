@@ -1,0 +1,44 @@
+/* 这个 CSS 文件是用来放博客详情页的专属样式 */
+
+.containerDetail {
+    /* margin-top: 3%; */
+    display: grid;
+    grid-template-rows:auto;
+    grid-template-columns:700px;
+    /* overflow: hidden; */
+    margin-top: 5%;
+
+}
+.containerContent{
+    width: 700px;
+    margin-left: 332.545px;
+    /* margin-right: 332.545px; */
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+/* 博客标题 */
+.title {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 20px;
+
+}
+.abstract{
+
+    text-indent: 2em;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 16px;
+}
+/* 博客内容 */
+.content {
+
+    text-indent: 2em;
+    padding: 10px 0;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 14px;
+}

@@ -1,0 +1,32 @@
+/* @import "~antd/dist/antd.css"; */
+
+.ant-menu{
+    /* background-color: #e3e1d1; */
+    background-color: #EBE9DE;
+    justify-content: right;
+}
+
+/* 设置 a 链接样式 */
+.ant-menu-item a:hover {
+    color: #BBA36A !important;
+    border-bottom-color: #BBA36A !important;
+}
+
+/* 选中菜单状态 */
+.ant-menu-item-selected {
+    color: #BBA36A !important;
+}
+.ant-menu-item-selected::after{
+    border-bottom-color: #BBA36A !important;
+}
+/* 修改用户名的位置 */
+.ant-menu>.userName{
+/* 加了flex: 1之后菜单会一直闪动？？？ */
+    /* flex: 1; */
+    /* text-align: left;  */
+    color: black !important;
+}
+
+.ant-menu>.username::after{
+    border-bottom-color: transparent !important;
+}

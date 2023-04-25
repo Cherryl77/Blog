@@ -1,0 +1,51 @@
+.ant-space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.ant-card:hover{
+    background: rgb(211, 209, 209) !important;
+}
+
+.ant-card::-webkit-scrollbar {
+    display: none;
+    /* Chrome Safari */
+}
+
+.ant-card-extra a{
+    color: #ad862c;
+}
+
+.pagination-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.ant-pagination .ant-pagination-item-active{
+    border-color: #634558;
+}
+a{
+    color: #426f98;
+}
+.ant-pagination .ant-pagination-item-active {
+    color: #426f98;
+}
+.ant-pagination .ant-pagination-item a:hover {
+    text-decoration-color: #426f98;
+}
+.ant-pagination .ant-pagination-item-active a {
+    color: #426f98;
+}
+.card::after{
+    content:""\e600"";
+}
+.icon-yongyan{
+    float: right;
+}
+.icon-yongyan:hover{
+    border-bottom: solid #ad862c;
+}

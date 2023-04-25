@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import { BrowserRouter } from "react-router-dom";
+// import axios from 'axios';
+// axios.default.baseURL = "http://localhost:3000"
 
+// 创建虚拟dom
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// 将虚拟dom渲染到页面上
 root.render(
   <React.StrictMode>
-    <App />
+
+     <App />
+
   </React.StrictMode>
 );
 

@@ -1,0 +1,38 @@
+/* .ant-form{
+    display: flex;
+    justify-content: center; 
+     align-items: center; 
+} */
+.form{
+    margin-left: 190px;
+    margin-top: 5%;
+}
+.buttons-container{
+    margin-left: 320px;
+    
+}
+.button{
+    margin-left: 20px;
+  background-color: #748CA3;
+
+}
+.ant-input{
+    border-radius: 6px;
+}
+.ant-row{
+    flex-wrap: nowrap;
+}
+/* 富文本编辑框 */
+/* 编辑导航 */
+.ql-toolbar.ql-snow {
+    background-color: #fff;
+    border-radius: 6px 6px 0 0;
+}
+/* 编辑内容  */
+.ql-editor{
+    background-color: #fff;
+    border-radius: 0 0 6px 6px;
+}
+.ql-container {
+    border-radius: 0 0 6px 6px;
+}

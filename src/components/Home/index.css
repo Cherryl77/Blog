@@ -1,0 +1,76 @@
+body {
+
+    background-color: #EBE9DE;
+}
+
+.container {
+    width: 1365px;
+    height: 500px;
+    margin-top: 3%;
+    display: flex;
+}
+
+.container-left {
+    width: 700px;
+    background-color: #EBE9DE;
+    position: relative;
+    margin-left: 100px;
+}
+
+.container-left .one {
+    width: 300px;
+    height: 150px;
+    margin-top: 13%;
+    margin-left: 40%;
+    background-color: #b35736;
+    opacity: 0.85;
+
+}
+
+.one p{
+    text-align: center;
+    font-family: fantasy;
+    line-height: 110px;
+   
+}
+
+.container-left .two {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    float: left;
+    left: 25%;
+    top: 40%;
+    background-color: #b35736;
+    background-image: url(../../assets/fz.jpg);
+    background-size: cover;
+}
+
+.two::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #796a6580;
+    z-index: 2;
+}
+
+.container-right {
+    width: 700px;
+    background-color: #EBE9DE;
+    font: italic 0.5em Georgia, serif;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 100px;
+}
+.container-right p{
+    line-height: 10px;
+    
+}
+.container-right .diver{
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
